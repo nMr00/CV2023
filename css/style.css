@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+}
+
+*{
+    font-family: "Roboto Mono", arial;
+}
+
+.pagina{
+    background-color: lightgray;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tex-sombras{
+    text-shadow: 2px 2px grey;
+}
+
+.contenedor{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-top: 0em;
+    padding-bottom: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.sub-contenedor{
+    width: 40%;
+    display: flex;
+    float: left;
+}
+
+.contenido{
+    padding: 20px 20px 10px 20px;
+}
+
+.separador{
+    width: 100%;
+    display: flex;
+    float: left;
+    background-color: aqua;
+    color: white;
+    border-left: 10px;
+    border-style: none none none solid;
+    border-color: aquamarine;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.sep-contacto{
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-contacto{
+    border: none;
+    color: transparent;
+    padding: 0%;
+    margin: 0%;
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.contacto{
+    display: flex;
+    width: 80%;
+    border-style: outset;
+    border-top: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.foto{
+    width: auto;
+    height: 80%;
+    height: 200px;
+}
+
+.exp-btn{
+    cursor: pointer;
+}
+
+.exp-btn:hover{
+    background-color: aquamarine;
+}
+
+.menu-navegacion{
+    position: fixed;
+    left: 0%;
+    bottom: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-nav{
+    border: none;
+    margin-bottom: 2px;
+}
+
+.pie{
+    text-align: center;
+}
